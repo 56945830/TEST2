@@ -24,6 +24,9 @@ BEGIN
 
 
 
+
+
+
 	INSERT SourceSafeLog(SourceSafeID,IsSuccess,TimeUse,UpdateCount,ErrorCount,ErrorDesc,LastChangeTime,UpdateTime)
 	VALUES(@l_SourceSafeID,@p_IsSuccess,@p_TimeUse,@p_UpdateCount,@p_ErrorCount,@p_ErrorDesc,@p_LastChangeTime,GETDATE())
 
